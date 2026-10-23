@@ -26,8 +26,8 @@ export default function HomeScreen() {
       <Pressable
         accessibilityRole="button"
         accessibilityLabel="Get started with MealPlan"
-        accessibilityHint="Opens the app's Explore screen"
-        onPress={() => router.push('/explore')}
+        accessibilityHint="Opens the sign in or create account screen"
+        onPress={() => router.push('/auth')}
         style={({ pressed }) => [styles.button, pressed && styles.buttonPressed]}>
         <Text style={styles.buttonText}>Get started</Text>
       </Pressable>
