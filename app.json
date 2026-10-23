@@ -1,4 +1,3 @@
-
 {
   "expo": {
     "name": "MealPlan",
@@ -33,7 +32,8 @@
           "image": "./assets/images/MealPlan_ Frische Küche zuhause.png",
           "imageWidth": 280
         }
-      ]
+      ],
+      "expo-sqlite"
     ],
     "experiments": {
       "typedRoutes": true,
